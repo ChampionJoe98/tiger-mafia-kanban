@@ -17,7 +17,7 @@ interface Column {
 
 // --- DATA ---
 const columns = ref<Column[]>([
-  { id: 1, title: 'Recruiting (To Do)', tasks: [{ id: 101, title: 'Invasion', description: 'Supa kicker!' }] },
+  { id: 1, title: 'Recruiting (To Do)', tasks: [{ id: 101, title: 'Name of your mission', description: 'Describe your mission!' }] },
   { id: 2, title: 'Commando Ops (Progress)', tasks: [] },
   { id: 3, title: 'Mission Accomplished (Done)', tasks: [] }
 ])
